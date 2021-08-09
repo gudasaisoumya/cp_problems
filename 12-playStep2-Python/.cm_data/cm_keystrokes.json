@@ -1,0 +1,116 @@
+{
+    "playstep2.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:58:15",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "37,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:58:15",
+            "keyStrokeInfo": "def playstep2(hand, dice):\r\n    nums=set(str(hand)) \r\n    if len(nums)==1:\r\n        return (hand,dice)\r\n    elif(len(nums)!=2):\r\n        dice=str(dice)\r\n        hand=str(hand)\r\n        str_res=max(hand)+dice[-2:]\r\n        res = ''.join(sorted(str_res)) \r\n        return (int(res[::-1]),int(dice[0:-2]))\r\n    else:\r\n        dice=str(dice)\r\n        hand=str(hand) \r\n        str_res= dice[-1:]  \r\n        for char in (hand): \r\n            if hand.count(char)>1:\r\n                str_res+=char\r\n        res = ''.join(sorted(str_res))\r\n        return (int(res[::-1]),int(dice[0:-1]))",
+            "position": "38,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:58:23",
+            "keyStrokeInfo": "",
+            "position": "38,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:06",
+            "keyStrokeInfo": "",
+            "position": "57,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:27",
+            "keyStrokeInfo": "\r\n\t\t\t\t",
+            "position": "53,35"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:28",
+            "keyStrokeInfo": "",
+            "position": "54,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:29",
+            "keyStrokeInfo": "h",
+            "position": "54,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:29",
+            "keyStrokeInfo": "g",
+            "position": "54,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:30",
+            "keyStrokeInfo": "u",
+            "position": "54,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:33",
+            "keyStrokeInfo": "",
+            "position": "54,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:33",
+            "keyStrokeInfo": "",
+            "position": "54,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:33",
+            "keyStrokeInfo": "",
+            "position": "54,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:34",
+            "keyStrokeInfo": "",
+            "position": "54,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:34",
+            "keyStrokeInfo": "",
+            "position": "54,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:34",
+            "keyStrokeInfo": "",
+            "position": "54,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 09 2021 17:59:34",
+            "keyStrokeInfo": "",
+            "position": "53,35"
+        }
+    ]
+}
