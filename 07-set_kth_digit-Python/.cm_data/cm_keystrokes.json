@@ -1,0 +1,18 @@
+{
+    "set_kth_digit.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Aug 11 2021 15:58:38",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Wed Aug 11 2021 15:58:39",
+            "keyStrokeInfo": "def fun_set_kth_digit(n, k, d):\r\n    flag = False\r\n    if(n < 0):\r\n        n = -n\r\n        flag = True\r\n    count = 0\r\n    res = 0\r\n    while(n > 0):\r\n        r = n % 10 \r\n        if count == k:\r\n            res = res + (d * (10 ** count))\r\n        else:\r\n            res = res + (r * (10 ** count))\r\n        count += 1\r\n        n = n // 10\r\n    if count == k:\r\n        res = res + (d * (10 ** count))\r\n    if flag:\r\n        return(-res)\r\n    else:\r\n        return res",
+            "position": "8,1"
+        }
+    ]
+}
