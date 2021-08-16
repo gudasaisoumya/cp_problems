@@ -1,0 +1,123 @@
+{
+    "stringkeys.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:49",
+            "keyStrokeInfo": "",
+            "position": "14,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:50",
+            "keyStrokeInfo": "",
+            "position": "14,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:50",
+            "keyStrokeInfo": "",
+            "position": "14,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:50",
+            "keyStrokeInfo": "",
+            "position": "14,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:51",
+            "keyStrokeInfo": "d=self.calculate_hash_value(string)\r\n        self.table.insert(d,string)\r\n        return -1",
+            "position": "14,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:54",
+            "keyStrokeInfo": "",
+            "position": "23,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:55",
+            "keyStrokeInfo": "",
+            "position": "23,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:55",
+            "keyStrokeInfo": "",
+            "position": "23,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:35:55",
+            "keyStrokeInfo": "",
+            "position": "23,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:04",
+            "keyStrokeInfo": " d=self.calculate_hash_value(string)\r\n        if(self.table[d]==None or self.table[d]!=string):\r\n            return -1\r\n        else:\r\n            return d",
+            "position": "23,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:08",
+            "keyStrokeInfo": "",
+            "position": "23,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:31",
+            "keyStrokeInfo": "",
+            "position": "33,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:32",
+            "keyStrokeInfo": "",
+            "position": "33,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:32",
+            "keyStrokeInfo": "",
+            "position": "33,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:32",
+            "keyStrokeInfo": "",
+            "position": "33,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:33",
+            "keyStrokeInfo": " Hash=(ord(string[0])*100)+ ord(string[1])\r\n        return Hash",
+            "position": "33,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 20:36:36",
+            "keyStrokeInfo": "",
+            "position": "33,9"
+        }
+    ]
+}
