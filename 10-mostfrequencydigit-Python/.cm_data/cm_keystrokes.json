@@ -1,0 +1,11 @@
+{
+    "mostfrequentdigit.py": [
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 12:04:52",
+            "keyStrokeInfo": "def c(x,d):\r\n    count=0\r\n    while(x>0):\r\n        if(x%10==d):\r\n            count+=1\r\n        x=x//10\r\n    return count\r\ndef mostfrequentdigit(n):\r\n    n=abs(n)\r\n    digit=0\r\n    max=0\r\n    count=0\r\n    for i in range(10):\r\n        count= c(n,i)\r\n        if(count>max):\r\n            max=count\r\n            digit=i\r\n        \r\n    return digit",
+            "position": "5,1"
+        }
+    ]
+}
