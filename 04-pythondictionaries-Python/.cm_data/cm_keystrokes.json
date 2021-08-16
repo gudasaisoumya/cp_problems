@@ -1,0 +1,39 @@
+{
+    "pythondictionaries.py": [
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:22:22",
+            "keyStrokeInfo": "def sortUSA():\r\n    '''Return all the cities in the USA in alphabetical order'''\r\n    return sorted(locations['North America']['USA'])\r\n    \r\n    \r\ndef alphaAsia():\r\n    '''Return all the cities in Asia continent in alphabetical order'''\r\n    cities = list()\r\n    for i in locations['Asia']:\r\n        cities.extend([ j+' - '+i for j in locations['Asia'][i]])\r\n    return sorted(cities)",
+            "position": "34,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:23:16",
+            "keyStrokeInfo": ",",
+            "position": "47,57"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:23:16",
+            "keyStrokeInfo": "'Asia':{'India':['Bangalore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']} ",
+            "position": "47,58"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:23:37",
+            "keyStrokeInfo": "",
+            "position": "47,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:23:38",
+            "keyStrokeInfo": "locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Bangalore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}  }",
+            "position": "47,1"
+        }
+    ]
+}
