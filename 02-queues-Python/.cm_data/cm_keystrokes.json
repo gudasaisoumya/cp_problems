@@ -1,0 +1,39 @@
+{
+    "queues.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:53:40",
+            "keyStrokeInfo": "",
+            "position": "12,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:53:40",
+            "keyStrokeInfo": "",
+            "position": "12,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:53:40",
+            "keyStrokeInfo": "",
+            "position": "12,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:53:40",
+            "keyStrokeInfo": "",
+            "position": "12,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Mon Aug 16 2021 11:53:57",
+            "keyStrokeInfo": "def enqueue(self, new_element):\r\n     \r\n        self.storage.append(new_element)\r\n\r\n    def peek(self):\r\n        \r\n        return self.storage[0]\r\n\r\n    def dequeue(self):\r\n       \r\n        return self.storage.pop(0)",
+            "position": "11,5"
+        }
+    ]
+}
