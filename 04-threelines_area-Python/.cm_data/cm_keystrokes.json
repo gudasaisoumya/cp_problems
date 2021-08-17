@@ -1,0 +1,88 @@
+{
+    "threelines_area.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:53",
+            "keyStrokeInfo": "",
+            "position": "8,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:53",
+            "keyStrokeInfo": "",
+            "position": "8,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:53",
+            "keyStrokeInfo": "",
+            "position": "8,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:53",
+            "keyStrokeInfo": "",
+            "position": "8,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:53",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:54",
+            "keyStrokeInfo": "",
+            "position": "8,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:54",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:54",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:54",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:54",
+            "keyStrokeInfo": "",
+            "position": "7,34"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:56",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "7,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:21:57",
+            "keyStrokeInfo": "s=(0.5*(a+b+c))\r\n\tarea=int(math.sqrt(s*((s-a)*(s-b)*(s-c))))\r\n\treturn area",
+            "position": "8,2"
+        }
+    ]
+}
