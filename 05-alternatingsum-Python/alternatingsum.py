@@ -6,6 +6,6 @@
 
 
 def fun_alternatingsum(a): 
-	return 0
+	return sum(a[::2]) - sum(a[1::2])
 
 
