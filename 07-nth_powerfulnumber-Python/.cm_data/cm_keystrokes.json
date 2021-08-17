@@ -1,0 +1,11 @@
+{
+    "nthpowerfulnumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Tue Aug 17 2021 21:27:24",
+            "keyStrokeInfo": "import math\r\n\r\ndef isPowerful(n):\r\n    while (n % 2 == 0):\r\n        a = 0\r\n        while (n % 2 == 0):\r\n            n = n // 2\r\n            a = a + 1\r\n        if ( a == 1):\r\n            return False\r\n    for power in range(3, int(math.sqrt(n))+1, 2):\r\n        a = 0\r\n        while (n % power == 0):\r\n            n = n // power\r\n            a = a + 1\r\n        if (a == 1):\r\n            return False\r\n    return (n == 1)\r\n\r\ndef nthpowerfulnumber(n):\r\n    found = 0\r\n    guess = 0\r\n    while (found <= abs(n)):\r\n        guess += 1\r\n        if(isPowerful(guess)):\r\n            found += 1\r\n    return guess",
+            "position": "8,1"
+        }
+    ]
+}
