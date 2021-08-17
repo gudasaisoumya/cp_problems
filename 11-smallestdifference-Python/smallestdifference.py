@@ -6,4 +6,11 @@
 
 def smallestdifference(a):
 	# Your code goes here
-	pass
+	if(a==[]):
+		return(-1)
+	d=10**20
+	for i in range(len(a)-1):
+		for j in range(i+1,len(a)):
+			if(abs(a[i]-a[j])<d):
+				d=abs(a[i]-a[j])
+	return (d)
