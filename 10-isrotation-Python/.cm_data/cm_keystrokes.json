@@ -1,0 +1,32 @@
+{
+    "isrotation.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 12:13:33",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 12:13:34",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 12:13:34",
+            "keyStrokeInfo": "",
+            "position": "8,22"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 12:13:44",
+            "keyStrokeInfo": "def isrotation(x, y):\r\n   \r\n    s=str(x)\r\n    r=str(y)\r\n    rev=r[::-1]\r\n    if s==r:\r\n        return True\r\n    else:\r\n        \r\n        if len(s)==len(r):\r\n            res=s[len(s)-2:]+s[0:len(s)-2]\r\n            \r\n            if res==r:\r\n                return True\r\n            elif s==rev:\r\n                return True\r\n            else:\r\n                return False      \r\n        else:\r\n            return False",
+            "position": "8,1"
+        }
+    ]
+}
