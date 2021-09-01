@@ -1,0 +1,11 @@
+{
+    "LatinSquare.py": [
+        {
+            "operation": "PASTE",
+            "lines": 33,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:31:01",
+            "keyStrokeInfo": "def isLatinSquare(lst):\r\n    x=[]\r\n    for i in range(len(l[0])):\r\n        if (l[0][i] not in x):\r\n            x.append(l[0][i])\r\n        else:\r\n            return False\r\n    for j in range(len(l)):#012\r\n        c=[]\r\n        r=[]\r\n        for k in range(len(l[j])):#0123\r\n            if l[j][k] not in x:\r\n                return False\r\n            else:\r\n                if l[k][j] not in c:\r\n                    c.append(l[k][j])\r\n                else:\r\n                    return False\r\n                if l[j][k] not in r:\r\n                    r.append(l[j][k])\r\n                else:\r\n                    return False\r\n        print('row',r)\r\n        print('col',c)\r\n                \r\n    return True    \r\n            \r\n    \r\n        \r\n           \r\n\r\nl=[[1,2,3],[1,2,3],[20,3,1]] \r\nprint(isLatinSquare(l))",
+            "position": "10,1"
+        }
+    ]
+}
