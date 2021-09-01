@@ -1,0 +1,39 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:19:26",
+            "keyStrokeInfo": "",
+            "position": "21,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:19:27",
+            "keyStrokeInfo": "",
+            "position": "21,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:19:27",
+            "keyStrokeInfo": "",
+            "position": "21,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:19:27",
+            "keyStrokeInfo": "",
+            "position": "21,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 15:19:28",
+            "keyStrokeInfo": "d={}\r\n    for i in oscarResults:\r\n        if i[1] not in d:\r\n            d[i[1]]=1\r\n        else:\r\n            d[i[1]]+=1\r\n    return d",
+            "position": "21,5"
+        }
+    ]
+}
